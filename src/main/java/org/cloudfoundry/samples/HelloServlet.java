@@ -18,7 +18,7 @@ public class HelloServlet extends HttpServlet {
 		PrintWriter writer = response.getWriter();
         //System.out.println("test");
 		//writer.println("Hello World from " + System.getenv("VCAP_APP_HOST") + ":" + System.getenv("VCAP_APP_PORT"));
-		writer.println("Hello from MoPaaS MCE");
+		writer.println("Hello from Demo1");
 		writer.close();
 	}
 }
